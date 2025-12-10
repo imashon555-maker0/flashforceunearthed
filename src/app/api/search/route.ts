@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import { google_web_search } from 'google-search-tool';
 
 export async function POST(request: Request) {
   try {
