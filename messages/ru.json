@@ -1,0 +1,36 @@
+{
+  "Sidebar": {
+    "title": "ArcheoQuest",
+    "home": "Главная",
+    "lessons": "Уроки",
+    "search": "Поиск"
+  },
+  "HomePage": {
+    "welcome": "Добро пожаловать в ArcheoQuest!",
+    "description": "Ваше приключение в археологии начинается здесь. Выберите урок, чтобы начать, или воспользуйтесь поиском, чтобы копнуть глубже."
+  },
+  "LessonsPage": {
+    "title": "Ваш учебный путь"
+  },
+  "LessonsData": {
+    "unit1_title": "Введение в археологию",
+    "unit1_lesson1_title": "Что такое археология?",
+    "unit1_lesson2_title": "Временные шкалы и периоды",
+    "unit1_lesson3_title": "Известные открытия",
+    "unit2_title": "Древний Египет",
+    "unit2_lesson1_title": "Пирамиды",
+    "unit2_lesson2_title": "Иероглифы",
+    "unit2_lesson3_title": "Мумификация",
+    "unit3_title": "Римская империя",
+    "unit3_lesson1_title": "Колизей",
+    "unit3_lesson2_title": "Римские дороги",
+    "unit3_lesson3_title": "Помпеи"
+  },
+  "SearchPage": {
+    "title": "AI Веб-поисковик",
+    "description": "Есть вопрос по археологии? Попросите нашего AI-поисковика найти для вас ответы в Интернете.",
+    "placeholder": "напр., Как работает радиоуглеродный анализ?",
+    "button": "Поиск",
+    "loading": "Поиск..."
+  }
+}
