@@ -1,0 +1,36 @@
+{
+  "Sidebar": {
+    "title": "ArcheoQuest",
+    "home": "Accueil",
+    "lessons": "Leçons",
+    "search": "Recherche"
+  },
+  "HomePage": {
+    "welcome": "Bienvenue sur ArcheoQuest !",
+    "description": "Votre aventure en archéologie commence ici. Choisissez une leçon pour commencer, ou utilisez la recherche pour creuser plus profondément."
+  },
+  "LessonsPage": {
+    "title": "Votre Parcours d'Apprentissage"
+  },
+  "LessonsData": {
+    "unit1_title": "Introduction à l'Archéologie",
+    "unit1_lesson1_title": "Qu'est-ce que l'Archéologie ?",
+    "unit1_lesson2_title": "Chronologies et Périodes",
+    "unit1_lesson3_title": "Découvertes Célèbres",
+    "unit2_title": "Égypte Ancienne",
+    "unit2_lesson1_title": "Les Pyramides",
+    "unit2_lesson2_title": "Les Hiéroglyphes",
+    "unit2_lesson3_title": "La Momification",
+    "unit3_title": "L'Empire Romain",
+    "unit3_lesson1_title": "Le Colisée",
+    "unit3_lesson2_title": "Les Voies Romaines",
+    "unit3_lesson3_title": "Pompéi"
+  },
+  "SearchPage": {
+    "title": "Recherche Web par IA",
+    "description": "Vous avez une question sur l'archéologie ? Demandez à notre chercheur IA de dénicher les réponses pour vous sur le web.",
+    "placeholder": "ex: Comment fonctionne la datation au carbone ?",
+    "button": "Rechercher",
+    "loading": "Recherche en cours..."
+  }
+}
