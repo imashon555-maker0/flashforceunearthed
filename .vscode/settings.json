@@ -1,0 +1,15 @@
+{
+  // These settings are recommended for this project.
+  // They will override your user settings.
+
+  // Enable format on save.
+  "editor.formatOnSave": true,
+
+  // Set Prettier as the default formatter for consistent code style.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Auto-fix ESLint issues on save.
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}

@@ -1,0 +1,15 @@
+# This file configures the build and deployment settings for Netlify.
+
+[build]
+# This is the command Netlify will run to build your site.
+command = "npm run build"
+
+# This is the directory that contains your built site. For Next.js, it's .next.
+publish = ".next"
+
+# This is the base directory. Netlify will change to this directory before running the build command.
+base = "ArtiFact"
+
+# The official Netlify plugin for Next.js is essential for features like SSR, ISR, and API routes.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

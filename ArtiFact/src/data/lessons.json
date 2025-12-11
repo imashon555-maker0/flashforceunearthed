@@ -1,0 +1,31 @@
+{
+  "units": [
+    {
+      "key": "unit1",
+      "title": "unit1_title",
+      "lessons": [
+        { "id": "intro-1", "title": "unit1_lesson1_title" },
+        { "id": "intro-2", "title": "unit1_lesson2_title" },
+        { "id": "intro-3", "title": "unit1_lesson3_title" }
+      ]
+    },
+    {
+      "key": "unit2",
+      "title": "unit2_title",
+      "lessons": [
+        { "id": "egypt-1", "title": "unit2_lesson1_title" },
+        { "id": "egypt-2", "title": "unit2_lesson2_title" },
+        { "id": "egypt-3", "title": "unit2_lesson3_title" }
+      ]
+    },
+    {
+      "key": "unit3",
+      "title": "unit3_title",
+      "lessons": [
+        { "id": "rome-1", "title": "unit3_lesson1_title" },
+        { "id": "rome-2", "title": "unit3_lesson2_title" },
+        { "id": "rome-3", "title": "unit3_lesson3_title" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "npm: install",
+      "type": "npm",
+      "script": "install",
+      "detail": "Install project dependencies",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/ArtiFact"
+      }
+    },
+    {
+      "label": "npm: build",
+      "type": "npm",
+      "script": "build",
+      "detail": "Build the project for production",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/ArtiFact"
+      }
+    },
+    {
+      "label": "npm: lint",
+      "type": "npm",
+      "script": "lint",
+      "detail": "Run the linter",
+      "problemMatcher": ["$eslint-compact"],
+      "options": {
+        "cwd": "${workspaceFolder}/ArtiFact"
+      }
+    }
+  ]
+}
