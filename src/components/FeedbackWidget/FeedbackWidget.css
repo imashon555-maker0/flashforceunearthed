@@ -1,0 +1,215 @@
+.feedback-widget {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1000;
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedback-toggle {
+    background: var(--color-primary);
+    color: var(--color-cream);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    height: 120px;
+    transition: background 0.2s ease;
+}
+
+.feedback-toggle:hover {
+    background: var(--color-terracotta-dark);
+}
+
+.feedback-toggle span {
+    margin-top: 8px;
+}
+
+.feedback-panel {
+    background: var(--color-background-card);
+    width: 0;
+    height: auto;
+    max-height: 80vh;
+    overflow: hidden;
+    /* border-radius: 0 12px 12px 0; */
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.15);
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s;
+    border: 2px solid var(--color-border);
+    border-left: none;
+}
+
+.feedback-widget.open .feedback-panel {
+    width: 320px;
+    padding: 24px;
+}
+
+.feedback-widget.open .feedback-toggle {
+    border-radius: 0;
+    /* Ideally pushes out or hides. Let's make the panel appear next to the button 
+       Wait, simple approach: Panel is INSIDE the flow, so when it expands, 
+       the structure is [Panel][Button] if it's left aligned? 
+       Actually, standard "left side pop out" usually hides the button or pushes it.
+       Let's use absolute positioning or transform for a slide-out drawer style. */
+}
+
+/* Re-thinking layout for slide-out */
+.feedback-widget {
+    left: -320px;
+    /* Hidden by default width of panel */
+    transition: left 0.3s ease;
+}
+
+.feedback-widget.open {
+    left: 0;
+}
+
+.feedback-panel {
+    width: 320px;
+    /* padding: 24px; now handled by children visibility or keep fixed padding */
+    padding: 24px;
+    flex-shrink: 0;
+}
+
+.feedback-toggle {
+    position: absolute;
+    right: -42px;
+    /* Width of button approximately */
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    /* Reset rotation logic from flex approach */
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    height: auto;
+    padding: 16px 8px;
+    background: var(--color-primary);
+    border-radius: 0 8px 8px 0;
+}
+
+.feedback-header-widget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 10px;
+}
+
+.feedback-header-widget h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    padding: 4px;
+}
+
+.close-btn:hover {
+    color: var(--color-primary);
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.star-btn {
+    background: none;
+    border: none;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: transform 0.1s;
+    padding: 0;
+}
+
+.star-btn.active {
+    color: #ffb400;
+    /* Gold color for stars */
+}
+
+.star-btn:hover {
+    transform: scale(1.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: var(--color-text-primary);
+    font-weight: 600;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-background);
+    color: var(--color-text-primary);
+    resize: vertical;
+    font-family: inherit;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.2s;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background: var(--color-terracotta-dark);
+}
+
+.submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.feedback-success {
+    text-align: center;
+    padding: 20px;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.error-msg {
+    color: #f44336;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-align: center;
+}

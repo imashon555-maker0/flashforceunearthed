@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Quiz Enthusiast",
+        "description": "Complete 3 quizzes today",
+        "target": 3,
+        "reward": 50,
+        "icon": "🎯",
+        "type": "quizCount"
+    },
+    {
+        "id": 2,
+        "title": "Perfectionist",
+        "description": "Get 2 perfect scores",
+        "target": 2,
+        "reward": 75,
+        "icon": "⭐",
+        "type": "perfectScores"
+    },
+    {
+        "id": 3,
+        "title": "Knowledge Seeker",
+        "description": "Complete 5 quizzes today",
+        "target": 5,
+        "reward": 100,
+        "icon": "📚",
+        "type": "quizCount"
+    },
+    {
+        "id": 4,
+        "title": "Explorer",
+        "description": "Try quizzes from 3 different categories",
+        "target": 3,
+        "reward": 60,
+        "icon": "🗺️",
+        "type": "categoriesExplored"
+    },
+    {
+        "id": 5,
+        "title": "Speed Learner",
+        "description": "Complete 2 quizzes today",
+        "target": 2,
+        "reward": 40,
+        "icon": "⚡",
+        "type": "quizCount"
+    },
+    {
+        "id": 6,
+        "title": "Master Scholar",
+        "description": "Score 80%+ on 3 quizzes",
+        "target": 3,
+        "reward": 80,
+        "icon": "🏆",
+        "type": "highScores"
+    },
+    {
+        "id": 7,
+        "title": "Archaeology Focus",
+        "description": "Complete 2 Archaeology quizzes",
+        "target": 2,
+        "reward": 45,
+        "icon": "🏺",
+        "type": "categorySpecific",
+        "category": "Archaeology"
+    }
+]

@@ -1,0 +1,108 @@
+/* Hair Customization Section */
+.customization-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.2);
+}
+
+.customization-section h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.hair-customization {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hair-types label,
+.hair-colors label {
+    display: block;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Hair Type Grid */
+.hair-type-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.75rem;
+}
+
+.hair-type-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.hair-type-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hair-type-btn.active {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: #ffd700;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    transform: scale(1.05);
+}
+
+/* Color Palette */
+.color-palette {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 0.75rem;
+    max-width: 500px;
+}
+
+.color-swatch {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.color-swatch:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.color-swatch.active {
+    border-color: #ffd700;
+    border-width: 4px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6), 0 4px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .customization-section {
+        padding: 1.5rem;
+    }
+
+    .hair-type-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .color-palette {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

@@ -1,0 +1,1646 @@
+[
+    {
+        "id": 1,
+        "category": "Archaeology",
+        "period": "Iron Age",
+        "title": "Golden Warrior Introduction",
+        "questions": [
+            {
+                "id": "q1",
+                "type": "multiple-choice",
+                "text": "What is the Golden Warrior?",
+                "options": [
+                    "A famous archaeological find from Kazakhstan",
+                    "A modern sculpture",
+                    "An ancient coin",
+                    "A mythological figure"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Golden Warrior (Altyn Adam) is one of Kazakhstan's most famous archaeological discoveries, found in the Issyk kurgan."
+            },
+            {
+                "id": "q2",
+                "type": "multiple-choice",
+                "text": "In which region was the Golden Warrior discovered?",
+                "options": [
+                    "Almaty",
+                    "Issyk",
+                    "Astana",
+                    "Shymkent"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Golden Warrior was discovered in the Issyk kurgan, located near Almaty in 1969."
+            },
+            {
+                "id": "q1_3",
+                "type": "multiple-choice",
+                "text": "When was the Golden Warrior discovered?",
+                "options": [
+                    "1969",
+                    "1991",
+                    "1850",
+                    "2000"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Golden Warrior was excavated in 1969 by archaeologist Kemal Akishev, becoming a symbol of Kazakhstan's rich ancient heritage."
+            },
+            {
+                "id": "q1_4",
+                "type": "multiple-choice",
+                "text": "What period does the Golden Warrior date from?",
+                "options": [
+                    "Medieval period",
+                    "Bronze Age",
+                    "5th-3rd century BCE",
+                    "Roman era"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Golden Warrior dates from the 5th-3rd century BCE and belonged to the Saka culture, an ancient nomadic civilization."
+            },
+            {
+                "id": "q1_5",
+                "type": "multiple-choice",
+                "text": "What animal is prominently featured on the Golden Warrior's headdress?",
+                "options": [
+                    "Lion",
+                    "Winged horses",
+                    "Elephant",
+                    "Snake"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The headdress features winged horses (tulpars), symbolizing speed and spiritual elevation in Saka mythology."
+            }
+        ],
+        "reward": 30
+    },
+    {
+        "id": 2,
+        "category": "History",
+        "period": "Iron Age",
+        "title": "Scythian Culture",
+        "questions": [
+            {
+                "id": "q3",
+                "type": "multiple-choice",
+                "text": "The Scythians were known for their expertise in:",
+                "options": [
+                    "Agriculture only",
+                    "Horseback riding and warfare",
+                    "Maritime navigation",
+                    "Architecture"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Scythians were nomadic warriors famous for their exceptional horseback riding and combat skills."
+            },
+            {
+                "id": "q4",
+                "type": "connect",
+                "text": "Match the Scythian artifacts to their purpose:",
+                "pairs": [
+                    {
+                        "left": "Golden ornaments",
+                        "right": "Status and wealth display"
+                    },
+                    {
+                        "left": "Iron weapons",
+                        "right": "Warfare and hunting"
+                    },
+                    {
+                        "left": "Animal-style art",
+                        "right": "Religious and cultural expression"
+                    }
+                ],
+                "explanation": "Scythian artifacts reveal a sophisticated culture with distinct purposes for different types of objects."
+            },
+            {
+                "id": "q2_3",
+                "type": "multiple-choice",
+                "text": "What was the Animal Style in Scythian art?",
+                "options": [
+                    "Realistic portraits of animals",
+                    "Stylized depictions of animals in combat or motion",
+                    "Simple animal outlines",
+                    "Cave paintings only"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Scythian Animal Style featured highly stylized animals in dynamic poses, often intertwined in combat, representing their nomadic worldview and spiritual beliefs."
+            },
+            {
+                "id": "q2_4",
+                "type": "multiple-choice",
+                "text": "The Scythians inhabited the steppes during which time period?",
+                "options": [
+                    "5000-3000 BCE",
+                    "9th century BCE to 4th century CE",
+                    "1000-1500 CE",
+                    "100-500 CE"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Scythian culture flourished from the 9th century BCE to approximately the 4th century CE, dominating the Eurasian steppes for over a millennium."
+            },
+            {
+                "id": "q2_5",
+                "type": "multiple-choice",
+                "text": "Which ancient historian wrote extensively about the Scythians?",
+                "options": [
+                    "Herodotus",
+                    "Homer",
+                    "Plato",
+                    "Socrates"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Herodotus provided detailed accounts of Scythian customs, warfare, and burial practices in his 'Histories'."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 3,
+        "category": "Archaeology",
+        "period": "Medieval",
+        "title": "Ancient Settlements",
+        "questions": [
+            {
+                "id": "q5",
+                "type": "multiple-choice",
+                "text": "Which ancient city was located on the Silk Road in Kazakhstan?",
+                "options": [
+                    "Pompeii",
+                    "Otrar",
+                    "Troy",
+                    "Babylon"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Otrar was a major city on the Silk Road, playing a crucial role in trade between East and West."
+            },
+            {
+                "id": "q6",
+                "type": "multiple-choice",
+                "text": "What materials were commonly used in ancient Kazakhstan settlements?",
+                "options": [
+                    "Concrete and steel",
+                    "Adobe and wood",
+                    "Glass and plastic",
+                    "Ice and snow"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Ancient settlements in Kazakhstan were built using locally available materials like adobe (mud bricks) and wood."
+            },
+            {
+                "id": "q3_3",
+                "type": "multiple-choice",
+                "text": "What happened to the city of Otrar in 1219-1220?",
+                "options": [
+                    "It became the Mongol capital",
+                    "It was destroyed by Genghis Khan's armies",
+                    "It was peacefully incorporated into the Mongol Empire",
+                    "It was abandoned due to drought"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Otrar was besieged and destroyed by Genghis Khan's forces in 1219-1220 after the governor killed Mongol envoys, triggering the Mongol invasion of Central Asia."
+            },
+            {
+                "id": "q3_4",
+                "type": "multiple-choice",
+                "text": "Ancient settlements in Kazakhstan often featured which defensive structures?",
+                "options": [
+                    "Moats filled with water",
+                    "Fortified walls and citadels",
+                    "Underground bunkers",
+                    "Wooden palisades only"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Cities like Otrar and Taraz had fortified walls, watchtowers, and citadels to protect against raids and invasions along the Silk Road."
+            },
+            {
+                "id": "q3_5",
+                "type": "multiple-choice",
+                "text": "What was a 'shakhristan' in an ancient Central Asian city?",
+                "options": [
+                    "The residential city center",
+                    "The defensive wall",
+                    "The market square",
+                    "The cemetery"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The 'shakhristan' was the main residential area for the nobility and merchants, located inside the city walls but outside the citadel."
+            }
+        ],
+        "reward": 30
+    },
+    {
+        "id": 4,
+        "category": "History",
+        "period": "Bronze Age",
+        "title": "Bronze Age Kazakhstan",
+        "questions": [
+            {
+                "id": "q7",
+                "type": "multiple-choice",
+                "text": "The Andronovo culture existed during which period?",
+                "options": [
+                    "Stone Age",
+                    "Bronze Age",
+                    "Iron Age",
+                    "Middle Ages"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Andronovo culture flourished during the Bronze Age (2000-900 BCE) across Kazakhstan and surrounding regions."
+            },
+            {
+                "id": "q8",
+                "type": "multiple-choice",
+                "text": "What was the primary economic activity of Bronze Age people in Kazakhstan?",
+                "options": [
+                    "Fishing",
+                    "Pastoralism and animal husbandry",
+                    "Manufacturing",
+                    "Maritime trade"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bronze Age communities in Kazakhstan were primarily pastoral, raising cattle, sheep, and horses on the steppes."
+            },
+            {
+                "id": "q9",
+                "type": "multiple-choice",
+                "text": "Bronze Age people in Kazakhstan were known for their:",
+                "options": [
+                    "Writing systems",
+                    "Metallurgy skills",
+                    "Pyramid building",
+                    "Naval warfare"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bronze Age Kazakhstan cultures developed advanced metallurgy, creating bronze tools, weapons, and ornaments."
+            },
+            {
+                "id": "q4_4",
+                "type": "multiple-choice",
+                "text": "What innovation did Bronze Age people in Kazakhstan develop for wheeled transport?",
+                "options": [
+                    "Steam engines",
+                    "Spoked wheels for chariots",
+                    "Rubber tires",
+                    "Suspension systems"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bronze Age cultures in Kazakhstan developed spoked wheels, revolutionizing transport and warfare with lighter, faster chariots."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 5,
+        "category": "Archaeology",
+        "period": "Bronze Age",
+        "title": "Petroglyphs of Tamgaly",
+        "questions": [
+            {
+                "id": "q10",
+                "type": "multiple-choice",
+                "text": "What are petroglyphs?",
+                "options": [
+                    "Ancient coins",
+                    "Rock carvings",
+                    "Clay tablets",
+                    "Metal sculptures"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Petroglyphs are images carved into rock surfaces, often depicting animals, hunting scenes, and ritual activities."
+            },
+            {
+                "id": "q11",
+                "type": "multiple-choice",
+                "text": "The Tamgaly petroglyphs are a UNESCO World Heritage Site. When were they created?",
+                "options": [
+                    "Last century",
+                    "Middle Ages",
+                    "Bronze Age onwards",
+                    "During Soviet era"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Tamgaly petroglyphs date from the Bronze Age (around 1500 BCE) through various later periods, representing thousands of years of human activity."
+            },
+            {
+                "id": "q5_3",
+                "type": "multiple-choice",
+                "text": "What do the Tamgaly petroglyphs primarily depict?",
+                "options": [
+                    "Modern buildings",
+                    "Solar deities, animals, and ritual scenes",
+                    "Written text only",
+                    "Geometric patterns exclusively"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Tamgaly petroglyphs feature sun-headed deities, wild animals (bulls, horses, deer), hunting scenes, and ritual dances, providing insight into Bronze Age spiritual life."
+            },
+            {
+                "id": "q5_4",
+                "type": "multiple-choice",
+                "text": "In what year was Tamgaly inscribed as a UNESCO World Heritage Site?",
+                "options": [
+                    "1990",
+                    "2004",
+                    "2015",
+                    "1985"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Tamgaly was inscribed as a UNESCO World Heritage Site in 2004, recognized for its outstanding concentration of over 5,000 petroglyphs."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 6,
+        "category": "History",
+        "period": "Iron Age",
+        "title": "Saka Warriors and Culture",
+        "questions": [
+            {
+                "id": "q12",
+                "type": "multiple-choice",
+                "text": "Who were the Saka people?",
+                "options": [
+                    "A Chinese dynasty",
+                    "Ancient Iranian nomads",
+                    "Roman soldiers",
+                    "Egyptian pharaohs"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Saka were ancient Iranian nomadic peoples who inhabited the steppes of Central Asia, including Kazakhstan, from around 1000 BCE."
+            },
+            {
+                "id": "q13",
+                "type": "connect",
+                "text": "Match Saka burial customs to their significance:",
+                "pairs": [
+                    {
+                        "left": "Kurgans (burial mounds)",
+                        "right": "Monuments for elite warriors"
+                    },
+                    {
+                        "left": "Horse burials",
+                        "right": "Symbol of nomadic lifestyle"
+                    },
+                    {
+                        "left": "Gold grave goods",
+                        "right": "Display of social status"
+                    }
+                ],
+                "explanation": "Saka burial practices reveal their hierarchical society, nomadic culture, and metallurgical sophistication."
+            },
+            {
+                "id": "q14",
+                "type": "multiple-choice",
+                "text": "The Golden Warrior belonged to which culture?",
+                "options": [
+                    "Roman",
+                    "Saka",
+                    "Viking",
+                    "Aztec"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Golden Warrior (Altyn Adam) was a Saka warrior, wearing over 4,000 gold pieces in elaborate armor."
+            },
+            {
+                "id": "q6_4",
+                "type": "multiple-choice",
+                "text": "What does the pointed hat of the Golden Warrior represent?",
+                "options": [
+                    "A simple fashion choice",
+                    "Cosmic hierarchy and solar symbolism",
+                    "A chef's hat",
+                    "Protection from rain"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The tall, pointed headdress of the Saka warrior is adorned with gold plaques depicting birds, mountains, and winged horses, symbolizing the cosmic order and the sun."
+            }
+        ],
+        "reward": 40
+    },
+    {
+        "id": 7,
+        "category": "History",
+        "period": "Medieval",
+        "title": "Silk Road Trade Routes",
+        "questions": [
+            {
+                "id": "q15",
+                "type": "multiple-choice",
+                "text": "What was the primary purpose of the Silk Road?",
+                "options": [
+                    "Military conquest",
+                    "Trade and cultural exchange",
+                    "Religious pilgrimages only",
+                    "Scientific exploration"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Silk Road was a network of trade routes connecting East and West, facilitating commerce and cultural exchange for centuries."
+            },
+            {
+                "id": "q16",
+                "type": "multiple-choice",
+                "text": "Which city in Kazakhstan was a major Silk Road hub?",
+                "options": [
+                    "Turkestan",
+                    "Aktau",
+                    "Pavlodar",
+                    "Karaganda"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Turkestan (also called Yasi) was a crucial Silk Road city and spiritual center, home to the Mausoleum of Khoja Ahmed Yasawi."
+            },
+            {
+                "id": "q7_3",
+                "type": "multiple-choice",
+                "text": "Besides silk, what other valuable commodity was traded through Kazakhstan?",
+                "options": [
+                    "Coffee",
+                    "Spices, tea, and ceramics",
+                    "Modern machinery",
+                    "Plastic goods"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Silk Road carried diverse goods, including spices, tea, ceramics, precious stones, and paper, connecting the markets of Asia and Europe."
+            },
+            {
+                "id": "q7_4",
+                "type": "multiple-choice",
+                "text": "What was the role of caravanserais along the Silk Road?",
+                "options": [
+                    "Military forts",
+                    "Places of rest and protection for traders",
+                    "Farming communities",
+                    "Temple complexes"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Caravanserais were roadside inns where travelers (caravans) could rest and recover from the day's journey, supporting the flow of commerce and information."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 8,
+        "category": "History",
+        "period": "Bronze Age",
+        "title": "Ancient Metallurgy",
+        "questions": [
+            {
+                "id": "q17",
+                "type": "multiple-choice",
+                "text": "Kazakhstan's ancient peoples were pioneers in working with which metal?",
+                "options": [
+                    "Aluminum",
+                    "Bronze",
+                    "Titanium",
+                    "Plastic"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Ancient Kazakhstan cultures were skilled in bronze metallurgy, creating alloys of copper and tin for tools and weapons."
+            },
+            {
+                "id": "q18",
+                "type": "connect",
+                "text": "Match the metal to its ancient use:",
+                "pairs": [
+                    {
+                        "left": "Gold",
+                        "right": "Decorative art and status symbols"
+                    },
+                    {
+                        "left": "Bronze",
+                        "right": "Weapons and tools"
+                    },
+                    {
+                        "left": "Iron",
+                        "right": "Later period weaponry"
+                    }
+                ],
+                "explanation": "Different metals served specific purposes based on their properties and availability in ancient times."
+            },
+            {
+                "id": "q8_3",
+                "type": "multiple-choice",
+                "text": "Which region of Kazakhstan is particularly known for its ancient copper mines?",
+                "options": [
+                    "Zhezkazgan and Central Kazakhstan",
+                    "Caspian Sea coast",
+                    "Southern deserts",
+                    "Northern forests"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Central Kazakhstan, particularly the Zhezkazgan region, has been an important center for copper mining and processing since the Bronze Age."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 9,
+        "category": "Archaeology",
+        "period": "Iron Age",
+        "title": "Berel Burial Mounds",
+        "questions": [
+            {
+                "id": "q19",
+                "type": "multiple-choice",
+                "text": "What remarkable preservation was found in the Berel kurgans?",
+                "options": [
+                    "Frozen mummies and artifacts",
+                    "Written scrolls",
+                    "Living plants",
+                    "Dinosaur fossils"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Berel burial mounds in eastern Kazakhstan preserved frozen remains of horses, humans, and artifacts due to permafrost."
+            },
+            {
+                "id": "q20",
+                "type": "multiple-choice",
+                "text": "The Berel horses had elaborate:",
+                "options": [
+                    "Stone monuments",
+                    "Painted pottery",
+                    "Decorative headdresses and masks",
+                    "Metal shoes"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The sacrificed horses in Berel kurgans wore stunning decorative headdresses with gold, leather, and felt ornaments."
+            },
+            {
+                "id": "q9_3",
+                "type": "multiple-choice",
+                "text": "The Berel kurgans belonged to which ancient group?",
+                "options": [
+                    "Vikings",
+                    "Saka-Scythian tribes",
+                    "Romans",
+                    "Aztecs"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Berel mounds are associated with the Saka-Scythian Pazyryk culture of the Altai mountains, dating from the 4th-3rd centuries BCE."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 10,
+        "category": "Archaeology",
+        "period": "Copper Age",
+        "title": "Botai Culture and Horse Domestication",
+        "questions": [
+            {
+                "id": "q21",
+                "type": "multiple-choice",
+                "text": "The Botai culture is famous for being among the first to:",
+                "options": [
+                    "Build pyramids",
+                    "Domesticate horses",
+                    "Invent writing",
+                    "Create pottery"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Botai culture (3700-3100 BCE) in northern Kazakhstan provides some of the earliest evidence of horse domestication."
+            },
+            {
+                "id": "q22",
+                "type": "multiple-choice",
+                "text": "How did archaeologists prove the Botai people rode horses?",
+                "options": [
+                    "Ancient paintings",
+                    "Written records",
+                    "Bit wear on horse teeth",
+                    "DNA analysis only"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Scientists found characteristic wear patterns on horse teeth from bits, proving the Botai people rode and controlled horses."
+            },
+            {
+                "id": "q10_3",
+                "type": "multiple-choice",
+                "text": "What was a main food source for the Botai people that involved horses?",
+                "options": [
+                    "Only hunting wild horses",
+                    "Horse milk and meat",
+                    "Imported grains",
+                    "Seafood"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Archaeological chemical analysis of Botai pottery reveals traces of fats from horse milk, suggesting they were milking domesticated horses over 5,000 years ago."
+            }
+        ],
+        "reward": 40
+    },
+    {
+        "id": 11,
+        "category": "Art History",
+        "period": "Iron Age",
+        "title": "Animal Style Art",
+        "questions": [
+            {
+                "id": "q23",
+                "type": "multiple-choice",
+                "text": "What is 'Animal Style' art?",
+                "options": [
+                    "Modern wildlife photography",
+                    "Ancient decorative style featuring animals",
+                    "Cave paintings only",
+                    "Agricultural diagrams"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Animal Style is a distinctive artistic tradition of nomadic peoples, featuring stylized animals in dynamic poses."
+            },
+            {
+                "id": "q24",
+                "type": "connect",
+                "text": "Match the animal symbols to their meanings:",
+                "pairs": [
+                    {
+                        "left": "Deer",
+                        "right": "Speed and grace"
+                    },
+                    {
+                        "left": "Snow leopard",
+                        "right": "Power and ferocity"
+                    },
+                    {
+                        "left": "Eagle",
+                        "right": "Divine connection"
+                    }
+                ],
+                "explanation": "Animals in Scythian and Saka art carried symbolic meanings related to qualities admired by nomadic warriors."
+            },
+            {
+                "id": "q11_3",
+                "type": "multiple-choice",
+                "text": "Which animal was often depicted with 'branching antlers' in Saka art?",
+                "options": [
+                    "Horse",
+                    "Red deer (Maral)",
+                    "Wolf",
+                    "Eagle"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The red deer or maral was a central figure in Saka art, often depicted with magnificent, flowing antlers that were highly stylized and symbolic."
+            },
+            {
+                "id": "q11_4",
+                "type": "multiple-choice",
+                "text": "Scythian animal style often shows animals in 'coiled' positions. Why?",
+                "options": [
+                    "To fit on small circular ornaments",
+                    "Because they were sleeping",
+                    "To represent weakness",
+                    "It was a mistake"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Nomadic artisans often coiled animal figures into circles or teardrop shapes to elegantly fit the limited space of belt buckles, mirrors, and horse harness ornaments."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 12,
+        "category": "Culture",
+        "period": "Medieval",
+        "title": "Mausoleum of Khoja Ahmed Yasawi",
+        "questions": [
+            {
+                "id": "q25",
+                "type": "multiple-choice",
+                "text": "The Mausoleum of Khoja Ahmed Yasawi is located in:",
+                "options": [
+                    "Almaty",
+                    "Turkestan",
+                    "Astana",
+                    "Shymkent"
+                ],
+                "correctAnswer": 1,
+                "explanation": "This UNESCO World Heritage Site is located in Turkestan and was built by Timur (Tamerlane) in the late 14th century."
+            },
+            {
+                "id": "q26",
+                "type": "multiple-choice",
+                "text": "Who ordered the construction of this mausoleum?",
+                "options": [
+                    "Genghis Khan",
+                    "Alexander the Great",
+                    "Timur (Tamerlane)",
+                    "Napoleon"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Timur ordered the construction in 1389 to honor the Sufi mystic and poet Khoja Ahmed Yasawi."
+            },
+            {
+                "id": "q12_3",
+                "type": "multiple-choice",
+                "text": "What is unique about the 'Taykazan' (cauldron) inside the mausoleum?",
+                "options": [
+                    "It is made of wood",
+                    "It is the largest of its kind, cast from seven metals",
+                    "It was used for storing gold",
+                    "It is a modern replica"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The ritual cauldron, or Taykazan, is a masterpiece of medieval casting, weighing two tons and made from a unique alloy of seven metals."
+            },
+            {
+                "id": "q12_4",
+                "type": "multiple-choice",
+                "text": "Which architectural style does the mausoleum represent?",
+                "options": [
+                    "Gothic",
+                    "Timurid architecture",
+                    "Baroque",
+                    "Romanesque"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The mausoleum is a prime example of Timurid architecture, characterized by its massive turquoise dome and intricate tilework."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 13,
+        "category": "History",
+        "period": "Medieval",
+        "title": "Turkic Khaganate",
+        "questions": [
+            {
+                "id": "q27",
+                "type": "multiple-choice",
+                "text": "The Turkic Khaganate was established in:",
+                "options": [
+                    "21st century",
+                    "6th century CE",
+                    "2000 BCE",
+                    "15th century"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The First Turkic Khaganate was established in 552 CE, creating a vast empire across Central Asia."
+            },
+            {
+                "id": "q28",
+                "type": "multiple-choice",
+                "text": "The Turkic peoples created one of the earliest:",
+                "options": [
+                    "Universities",
+                    "Writing systems (runic script)",
+                    "Democracies",
+                    "Railways"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Orkhon script (Old Turkic alphabet) is one of the earliest writing systems created by Turkic peoples."
+            },
+            {
+                "id": "q13_3",
+                "type": "multiple-choice",
+                "text": "Who were the legendary founders of the Turkic Khaganate?",
+                "options": [
+                    "The Ashina clan",
+                    "The Vikings",
+                    "The Pharaohs",
+                    "The Caesars"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Ashina clan led the Gokturks to dominance, establishing one of the largest land empires in history during the 6th century."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 14,
+        "category": "History",
+        "period": "Medieval",
+        "title": "Taraz: Ancient City",
+        "questions": [
+            {
+                "id": "q29",
+                "type": "multiple-choice",
+                "text": "How old is the city of Taraz?",
+                "options": [
+                    "100 years",
+                    "500 years",
+                    "Over 2000 years",
+                    "50 years"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Taraz is one of Kazakhstan's oldest cities, with over 2,000 years of continuous settlement along the Silk Road."
+            },
+            {
+                "id": "q30",
+                "type": "multiple-choice",
+                "text": "Taraz was an important center for:",
+                "options": [
+                    "Space exploration",
+                    "Trade and Islamic culture",
+                    "Mining only",
+                    "Arctic research"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Taraz was a crucial Silk Road trading hub and became an important Islamic cultural center in medieval times."
+            },
+            {
+                "id": "q14_3",
+                "type": "multiple-choice",
+                "text": "What significant battle took place near Taraz in 751 CE?",
+                "options": [
+                    "Battle of Waterloo",
+                    "Battle of Talas",
+                    "The Crusades",
+                    "Battle of Hastings"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Battle of Talas in 751 CE was a pivotal conflict between the Abbasid Caliphate and the Chinese Tang Dynasty, which also led to the spread of papermaking to the West."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 15,
+        "category": "Archaeology",
+        "period": "General",
+        "title": "Kazakhstan Archaeology Quiz Master",
+        "questions": [
+            {
+                "id": "q31",
+                "type": "multiple-choice",
+                "text": "Approximately how many gold pieces were found on the Golden Warrior?",
+                "options": [
+                    "100",
+                    "500",
+                    "Over 4,000",
+                    "10"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Golden Warrior's costume contained over 4,000 individual gold pieces, showcasing incredible craftsmanship."
+            },
+            {
+                "id": "q32",
+                "type": "connect",
+                "text": "Match the archaeological site to its region:",
+                "pairs": [
+                    {
+                        "left": "Issyk kurgan",
+                        "right": "Almaty region"
+                    },
+                    {
+                        "left": "Berel mounds",
+                        "right": "East Kazakhstan"
+                    },
+                    {
+                        "left": "Tamgaly petroglyphs",
+                        "right": "Almaty region"
+                    }
+                ],
+                "explanation": "Kazakhstan's archaeological treasures are spread across the country, each region offering unique insights into ancient cultures."
+            },
+            {
+                "id": "q33",
+                "type": "multiple-choice",
+                "text": "Which period saw the flourishing of Silk Road trade through Kazakhstan?",
+                "options": [
+                    "Ice Age",
+                    "Medieval period",
+                    "Industrial Revolution",
+                    "Space Age"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Silk Road reached its peak during medieval times (roughly 6th-15th centuries), with Kazakhstan at a crucial crossroads."
+            },
+            {
+                "id": "q15_4",
+                "type": "multiple-choice",
+                "text": "Which ancient culture in Kazakhstan is famous for its early horse domestication?",
+                "options": [
+                    "Botai",
+                    "Roman",
+                    "Mayan",
+                    "Aztec"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Botai culture in Northern Kazakhstan is widely recognized for having some of the world's earliest evidence of horse domestication around 3500 BCE."
+            }
+        ],
+        "reward": 50
+    },
+    {
+        "id": 16,
+        "category": "Culture",
+        "period": "Traditional",
+        "title": "The Yurt: Nomad's Home",
+        "questions": [
+            {
+                "id": "q35",
+                "type": "multiple-choice",
+                "text": "What is the primary material used to cover a traditional Kazakh yurt?",
+                "options": [
+                    "Silk",
+                    "Felt (Kiiz)",
+                    "Leather",
+                    "Cotton"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Felt (Kiiz), made from sheep's wool, is the primary covering for a yurt, providing excellent insulation against heat and cold."
+            },
+            {
+                "id": "q36",
+                "type": "connect",
+                "text": "Match the yurt part to its description:",
+                "pairs": [
+                    {
+                        "left": "Shanyrak",
+                        "right": "Roof crown/Opening"
+                    },
+                    {
+                        "left": "Kerege",
+                        "right": "Lattice wall"
+                    },
+                    {
+                        "left": "Uwyk",
+                        "right": "Roof pole"
+                    }
+                ],
+                "explanation": "A yurt consists of the kerege (walls), uwyk (poles), and shanyrak (crown), which is a sacred symbol for Kazakhs."
+            },
+            {
+                "id": "q16_3",
+                "type": "multiple-choice",
+                "text": "What does the 'Shanyrak' symbolize in Kazakh culture?",
+                "options": [
+                    "War",
+                    "Family heritage and unity",
+                    "Wealth",
+                    "Travel"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Shanyrak symbolizes the family home, heritage, and unity, passed down from father to youngest son."
+            },
+            {
+                "id": "q16_4",
+                "type": "multiple-choice",
+                "text": "How quickly can a skilled team assemble a yurt?",
+                "options": [
+                    "1 week",
+                    "1-2 hours",
+                    "2 days",
+                    "10 minutes"
+                ],
+                "correctAnswer": 1,
+                "explanation": "A traditional yurt is an engineering marvel that can be set up or dismantled by a skilled family in just 1-2 hours."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 17,
+        "category": "Culture",
+        "period": "Traditional",
+        "title": "Musical Heritage",
+        "questions": [
+            {
+                "id": "q37",
+                "type": "multiple-choice",
+                "text": "What is the most famous two-stringed musical instrument of Kazakhstan?",
+                "options": [
+                    "Violin",
+                    "Dombyra",
+                    "Kobyz",
+                    "Guitar"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Dombyra is the national instrument of Kazakhstan, a two-stringed lute used to play kuis (musical compositions)."
+            },
+            {
+                "id": "q38",
+                "type": "multiple-choice",
+                "text": "The Kobyz is an ancient instrument often used by:",
+                "options": [
+                    "Shamans (Baksy)",
+                    "Shepherds",
+                    "Farmers",
+                    "Traders"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Kobyz, played with a bow and made of wood and horsehair, was traditionally used by shamans (baksy) for spiritual rituals."
+            },
+            {
+                "id": "q17_3",
+                "type": "connect",
+                "text": "Match the instrument to its type:",
+                "pairs": [
+                    {
+                        "left": "Dombyra",
+                        "right": "String (Plucked)"
+                    },
+                    {
+                        "left": "Sybyzgy",
+                        "right": "Wind (Flute)"
+                    },
+                    {
+                        "left": "Asatayak",
+                        "right": "Percussion"
+                    }
+                ],
+                "explanation": "Kazakh traditional instruments vary from strings (Dombyra) to wind (Sybyzgy) and percussion (Asatayak/Dangyra)."
+            },
+            {
+                "id": "q17_4",
+                "type": "multiple-choice",
+                "text": "What is a 'Kui'?",
+                "options": [
+                    "A type of song",
+                    "An instrumental musical composition",
+                    "A dance",
+                    "A poem"
+                ],
+                "correctAnswer": 1,
+                "explanation": "A Kui is a traditional instrumental musical composition, usually played on the Dombyra, telling a story or expressing a mood."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 18,
+        "category": "History",
+        "period": "Medieval",
+        "title": "Al-Farabi: The Second Teacher",
+        "questions": [
+            {
+                "id": "q39",
+                "type": "multiple-choice",
+                "text": "Who was Abu Nasr Al-Farabi?",
+                "options": [
+                    "A military general",
+                    "A famous philosopher and scientist",
+                    "A king",
+                    "A merchant"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Al-Farabi (872-950 CE) was a renowned polymath, philosopher, and scientist during the Islamic Golden Age."
+            },
+            {
+                "id": "q40",
+                "type": "multiple-choice",
+                "text": "Al-Farabi is known in history as:",
+                "options": [
+                    "The First Teacher",
+                    "The Second Teacher",
+                    "The Great Khan",
+                    "The Poet"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He is known as 'The Second Teacher' (after Aristotle) for his immense contributions to logic and philosophy."
+            },
+            {
+                "id": "q18_3",
+                "type": "multiple-choice",
+                "text": "Where was Al-Farabi born?",
+                "options": [
+                    "Baghdad",
+                    "Otrar (Farab)",
+                    "Cairo",
+                    "Damascus"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He was born in the city of Farab (Otrar) in modern-day southern Kazakhstan."
+            },
+            {
+                "id": "q18_4",
+                "type": "connect",
+                "text": "Match Al-Farabi's fields of study:",
+                "pairs": [
+                    {
+                        "left": "Music",
+                        "right": "Kitab al-Musiqa al-Kabir"
+                    },
+                    {
+                        "left": "Philosophy",
+                        "right": "Commentaries on Aristotle"
+                    },
+                    {
+                        "left": "Sociology",
+                        "right": "The Virtuous City"
+                    }
+                ],
+                "explanation": "Al-Farabi wrote major works on music theory, philosophy, and political science (The Virtuous City)."
+            }
+        ],
+        "reward": 40
+    },
+    {
+        "id": 19,
+        "category": "History",
+        "period": "Migration Period",
+        "title": "The Huns and Attila",
+        "questions": [
+            {
+                "id": "q41",
+                "type": "multiple-choice",
+                "text": "Who was the most famous leader of the Huns?",
+                "options": [
+                    "Julius Caesar",
+                    "Attila",
+                    "Genghis Khan",
+                    "Alexander"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Attila the Hun was the powerful ruler of the Huns who challenged the Roman Empire in the 5th century."
+            },
+            {
+                "id": "q42",
+                "type": "multiple-choice",
+                "text": "What military advantage did the Huns possess?",
+                "options": [
+                    "Cannons",
+                    "Mounted archery and composite bows",
+                    "Heavy infantry",
+                    "Naval fleet"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Huns were expert horsemen who used powerful composite bows, allowing them to shoot accurately while riding at high speeds."
+            },
+            {
+                "id": "q19_3",
+                "type": "multiple-choice",
+                "text": "The migration of the Huns triggered which historical event?",
+                "options": [
+                    "The Industrial Revolution",
+                    "The Great Migration of Peoples",
+                    "The Renaissance",
+                    "The Crusades"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The westward movement of the Huns pushed other tribes into the Roman Empire, triggering the Great Migration of Peoples."
+            },
+            {
+                "id": "q19_4",
+                "type": "multiple-choice",
+                "text": "Which period marks the height of the Hunnic Empire?",
+                "options": [
+                    "1st Century BC",
+                    "4th-5th Century CE",
+                    "10th Century CE",
+                    "15th Century CE"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Hunnic Empire reached its peak under Attila in the 5th century CE, controlling vast territories in Europe and Asia."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 20,
+        "category": "Archaeology",
+        "period": "Medieval",
+        "title": "Sauran: The Clay Fortress",
+        "questions": [
+            {
+                "id": "q43",
+                "type": "multiple-choice",
+                "text": "Where is the ancient city of Sauran located?",
+                "options": [
+                    "North Kazakhstan",
+                    "South Kazakhstan (Turkestan region)",
+                    "West Kazakhstan",
+                    "Altai Mountains"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sauran is located in southern Kazakhstan, northwest of Turkestan, along the ancient Silk Road."
+            },
+            {
+                "id": "q44",
+                "type": "multiple-choice",
+                "text": "What unique engineering feature did Sauran have?",
+                "options": [
+                    "Skyscrapers",
+                    "Kariz (underground water canals)",
+                    "Suspension bridges",
+                    "Electric lighting"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sauran is famous for its 'Kariz' system—an ancient underground water tunnel system used for irrigation and water supply."
+            },
+            {
+                "id": "q20_3",
+                "type": "multiple-choice",
+                "text": "What makes Sauran visually striking today?",
+                "options": [
+                    "It is underwater",
+                    "Its massive mud-brick walls are still standing",
+                    "It is made of glass",
+                    "It is painted blue"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The massive crenellated mud-brick (adobe) walls of Sauran are remarkably well-preserved, visible from a great distance."
+            },
+            {
+                "id": "q20_4",
+                "type": "multiple-choice",
+                "text": "When was Sauran a major political and economic center?",
+                "options": [
+                    "20th Century",
+                    "13th-16th Centuries",
+                    "Bronze Age",
+                    "Future"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sauran flourished during the 13th-16th centuries, serving as a capital for the White Horde and a key trade hub."
+            }
+        ],
+        "reward": 35
+    },
+    {
+        "id": 21,
+        "category": "Archaeology",
+        "period": "General",
+        "title": "Archaeology 101",
+        "questions": [
+            {
+                "id": "q21_1",
+                "type": "multiple-choice",
+                "text": "What is a 'Kurgan'?",
+                "options": [
+                    "A medieval castle",
+                    "An ancient burial mound",
+                    "A type of pottery",
+                    "A gold coin"
+                ],
+                "correctAnswer": 1,
+                "explanation": "A Kurgan is an ancient burial mound, often serving as a ritual and memorial site for ancient people."
+            },
+            {
+                "id": "q21_2",
+                "type": "connect",
+                "text": "Match the archaeological term to its definition:",
+                "pairs": [
+                    {
+                        "left": "Petroglyph",
+                        "right": "Rock art image"
+                    },
+                    {
+                        "left": "Gorodishche",
+                        "right": "Ancient settlement/fort"
+                    },
+                    {
+                        "left": "Excavation",
+                        "right": "Scientific digging"
+                    }
+                ],
+                "explanation": "Archaeology studies past human activity through material remains like petroglyphs (rock art) and settlements (gorodishche)."
+            },
+            {
+                "id": "q21_3",
+                "type": "multiple-choice",
+                "text": "Which method is considered the 'shovel of history' for pre-literate societies?",
+                "options": [
+                    "Astrology",
+                    "Archaeology",
+                    "Geology",
+                    "Botany"
+                ],
+                "correctAnswer": 1,
+                "explanation": "For periods without written records (like much of ancient Kazakhstan), archaeology is the primary method to uncover history."
+            },
+            {
+                "id": "q21_4",
+                "type": "multiple-choice",
+                "text": "What is the very first stage of an archaeological expedition?",
+                "options": [
+                    "Excavation",
+                    "Mobilization & Logistics",
+                    "Publishing a report",
+                    "Selling artifacts"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Before any digging happens, archaeologists must plan logistics, gather supplies, and organize the team (Mobilization)."
+            }
+        ],
+        "reward": 40
+    },
+    {
+        "id": 22,
+        "category": "Archaeology",
+        "period": "Various",
+        "title": "Petroglyphs of Kazakhstan",
+        "questions": [
+            {
+                "id": "q22_1",
+                "type": "multiple-choice",
+                "text": "What are Petroglyphs?",
+                "options": [
+                    "Ancient manuscripts",
+                    "Rock carvings/images",
+                    "Clay statues",
+                    "Wooden tools"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Petroglyphs are images created by removing part of a rock surface by incising, picking, carving, or abrading, common in Kazakhstan."
+            },
+            {
+                "id": "q22_2",
+                "type": "multiple-choice",
+                "text": "Which style is characteristic of the Saka period petroglyphs?",
+                "options": [
+                    "Animal Style",
+                    "Abstract Geometric",
+                    "Renaissance Realism",
+                    "Cubism"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The 'Animal Style', featuring dynamic poses of animals like deer and snow leopards, is iconic to the Saka (Iron Age) period."
+            },
+            {
+                "id": "q22_3",
+                "type": "connect",
+                "text": "Match the period to the petroglyph characteristic:",
+                "pairs": [
+                    {
+                        "left": "Paleolithic",
+                        "right": "Ancient, simple technique"
+                    },
+                    {
+                        "left": "Bronze Age",
+                        "right": "Chariots and sun-heads"
+                    },
+                    {
+                        "left": "Middle Ages",
+                        "right": "Turkic warriors/banners"
+                    }
+                ],
+                "explanation": "Petroglyph styles evolved over time; older ones (Paleolithic) are simpler, while Bronze Age often depicts chariots and solar deities."
+            },
+            {
+                "id": "q22_4",
+                "type": "multiple-choice",
+                "text": "Where is the most famous petroglyph site in Kazakhstan (UNESCO World Heritage)?",
+                "options": [
+                    "Tamgaly",
+                    "Astana",
+                    "Caspian Sea",
+                    "Altai"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Tamgaly (Tanbaly) is a UNESCO World Heritage site known for its concentration of some 5,000 petroglyphs."
+            }
+        ],
+        "reward": 40
+    },
+    {
+        "id": 23,
+        "category": "History",
+        "period": "General",
+        "title": "Timeline of Ages",
+        "questions": [
+            {
+                "id": "q23_1",
+                "type": "connect",
+                "text": "Order the archaeological periods from oldest to newest:",
+                "pairs": [
+                    {
+                        "left": "Stone Age",
+                        "right": "1st (Oldest)"
+                    },
+                    {
+                        "left": "Bronze Age",
+                        "right": "2nd"
+                    },
+                    {
+                        "left": "Iron Age",
+                        "right": "3rd"
+                    }
+                ],
+                "explanation": "The standard progression is Stone Age -> Bronze Age -> Iron Age -> Middle Ages."
+            },
+            {
+                "id": "q23_2",
+                "type": "multiple-choice",
+                "text": "The Botai culture belongs to which transitional period?",
+                "options": [
+                    "Paleolithic",
+                    "Eneolithic (Copper Age)",
+                    "Medieval",
+                    "Modern"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Botai dates to the Eneolithic (Copper Stone Age), a transition between the Stone and Bronze Ages."
+            },
+            {
+                "id": "q23_3",
+                "type": "multiple-choice",
+                "text": "Which period is associated with the rise of the Great Silk Road trade in Kazakhstan?",
+                "options": [
+                    "Stone Age",
+                    "Middle Ages",
+                    "Bronze Age",
+                    "Future Era"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Silk Road trade flourished primarily during the Medieval period (Middle Ages), connecting East and West."
+            },
+            {
+                "id": "q23_4",
+                "type": "multiple-choice",
+                "text": "Archaeologists specialize in specific periods. Who studies the 'Saka' culture?",
+                "options": [
+                    "Stone Age specialists",
+                    "Early Iron Age specialists",
+                    "Modern historians",
+                    "Geologists"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Saka culture is the defining culture of the Early Iron Age in the Eurasian steppes."
+            }
+        ],
+        "reward": 45
+    },
+    {
+        "id": 24,
+        "category": "Archaeology 101",
+        "period": "General",
+        "title": "Introduction to Archaeology",
+        "questions": [
+            {
+                "id": "q24_1",
+                "type": "multiple-choice",
+                "text": "What is the primary definition of archaeology?",
+                "options": [
+                    "The study of dinosaurs",
+                    "The study of human history through material remains",
+                    "The collecting of rare rocks",
+                    "The study of stars"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Archaeology is the scientific study of human history and prehistory through the excavation of sites and the analysis of artifacts."
+            },
+            {
+                "id": "q24_2",
+                "type": "multiple-choice",
+                "text": "How does an archaeologist differ from a 'treasure hunter'?",
+                "options": [
+                    "Archaeologists sell what they find",
+                    "Archaeologists aim to reconstruct history, not profit",
+                    "Treasure hunters use better tools",
+                    "There is no difference"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The main goal of an archaeologist is scientific knowledge and historical reconstruction, whereas treasure hunters seek personal profit, often destroying history."
+            },
+            {
+                "id": "q24_3",
+                "type": "multiple-choice",
+                "text": "Which of these is NOT typically studied by archaeologists?",
+                "options": [
+                    "Ancient pottery",
+                    "Stone tools",
+                    "Dinosaur bones",
+                    "Ruined buildings"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Dinosaur bones are studied by paleontologists. Archaeologists study the human past (which does not overlap with non-avian dinosaurs)."
+            },
+            {
+                "id": "q24_4",
+                "type": "multiple-choice",
+                "text": "What are 'artifacts'?",
+                "options": [
+                    "Natural rocks",
+                    "Objects made or modified by humans",
+                    "Modern trash only",
+                    "Fossilized plants"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Artifacts are movable objects created, used, or modified by humans, such as tools, pottery, and jewelry."
+            }
+        ],
+        "reward": 50
+    },
+    {
+        "id": 25,
+        "category": "Archaeology 101",
+        "period": "General",
+        "title": "Monuments & Heritage",
+        "questions": [
+            {
+                "id": "q25_1",
+                "type": "multiple-choice",
+                "text": "What is an 'archaeological monument'?",
+                "options": [
+                    "A modern statute",
+                    "A fixed site of past human activity preserved in the environment",
+                    "A book about history",
+                    "A museum building"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Archaeological monuments are immovable sites like settlements, burial mounds, and petroglyphs that preserve traces of the past."
+            },
+            {
+                "id": "q25_2",
+                "type": "multiple-choice",
+                "text": "What is a 'cultural layer'?",
+                "options": [
+                    "The clothes people wear",
+                    "A layer of soil containing traces of human activity",
+                    "A type of cake",
+                    "The atmosphere"
+                ],
+                "correctAnswer": 1,
+                "explanation": "A cultural layer is a stratum of soil that contains artifacts, charcoal, buildings, and other evidence of human habitation."
+            },
+            {
+                "id": "q25_3",
+                "type": "connect",
+                "text": "Match the monument type to its description:",
+                "pairs": [
+                    {
+                        "left": "Kurgan",
+                        "right": "Ancient burial mound"
+                    },
+                    {
+                        "left": "Petroglyph",
+                        "right": "Rock carving"
+                    },
+                    {
+                        "left": "Settlement",
+                        "right": "Place of habitation"
+                    }
+                ],
+                "explanation": "Different types of monuments provide different insights into how ancient people lived, died, and expressed themselves."
+            },
+            {
+                "id": "q25_4",
+                "type": "multiple-choice",
+                "text": "Why is it important to protect archaeological heritage?",
+                "options": [
+                    "It looks nice",
+                    "It is a non-renewable resource for understanding our past",
+                    "To sell tickets",
+                    "So we can build over it later"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Archaeological heritage is finite and non-renewable. Once destroyed, the historical information it contains is lost forever."
+            }
+        ],
+        "reward": 50
+    },
+    {
+        "id": 26,
+        "category": "Archaeology 101",
+        "period": "General",
+        "title": "Methods & Preservation",
+        "questions": [
+            {
+                "id": "q26_1",
+                "type": "multiple-choice",
+                "text": "What is 'stratigraphy'?",
+                "options": [
+                    "Study of clouds",
+                    "Study of soil layers to determine relative age",
+                    "Study of maps",
+                    "Study of stars"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Stratigraphy is the study of soil layers (strata). Generally, lower layers are older and upper layers are younger (Law of Superposition)."
+            },
+            {
+                "id": "q26_2",
+                "type": "multiple-choice",
+                "text": "Which of these is a non-invasive archaeological method?",
+                "options": [
+                    "Bulldozing",
+                    "Aerial photography and drones",
+                    "Dynamite",
+                    "Deep plowing"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Non-invasive methods like aerial surveys, drones, and geophysics allow archaeologists to study sites without damaging them."
+            },
+            {
+                "id": "q26_3",
+                "type": "multiple-choice",
+                "text": "What happens after an excavation?",
+                "options": [
+                    "The site is abandoned",
+                    "Artifacts are analyzed, conserved, and published",
+                    "Everything is thrown away",
+                    "The holes are left open"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Post-excavation analysis in the lab is crucial. Findings must be documented, conserved, and published for the scientific community."
+            },
+            {
+                "id": "q26_4",
+                "type": "multiple-choice",
+                "text": "What is the most destructive thing for an archaeological site?",
+                "options": [
+                    "Careful scientific excavation",
+                    "Looting and unauthorized digging",
+                    "Photography",
+                    "Mapping"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Looting (pot hunting) destroys the context of artifacts, erasing the historical information forever."
+            }
+        ],
+        "reward": 50
+    }
+]

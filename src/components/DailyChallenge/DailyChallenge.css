@@ -1,0 +1,130 @@
+.daily-challenge-card {
+    background: var(--color-background-card);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.daily-challenge-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-color: var(--color-terracotta);
+}
+
+.challenge-header {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    align-items: flex-start;
+}
+
+.challenge-icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+.challenge-info {
+    flex: 1;
+}
+
+.challenge-title {
+    font-size: 1.2rem;
+    color: var(--color-text-primary);
+    margin: 0 0 var(--spacing-xs) 0;
+    font-weight: 600;
+}
+
+.challenge-description {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+.challenge-progress {
+    margin-bottom: var(--spacing-md);
+}
+
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-sm);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+.reward-badge {
+    color: var(--color-terracotta);
+    font-weight: 600;
+}
+
+.progress-bar-container {
+    height: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-terracotta), var(--color-terracotta-dark));
+    border-radius: 10px;
+    transition: width 0.8s ease-out;
+}
+
+.claim-button {
+    width: 100%;
+    padding: var(--spacing-md);
+    background: linear-gradient(135deg, var(--color-terracotta), var(--color-terracotta-dark));
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.claim-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(209, 103, 60, 0.4);
+}
+
+.claimed-badge {
+    text-align: center;
+    padding: var(--spacing-md);
+    background: rgba(76, 175, 80, 0.1);
+    color: #4caf50;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    border: 2px dashed #4caf50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .daily-challenge-card {
+        padding: var(--spacing-md);
+    }
+
+    .challenge-icon {
+        font-size: 2rem;
+    }
+
+    .challenge-title {
+        font-size: 1.1rem;
+    }
+
+    .challenge-description {
+        font-size: 0.85rem;
+    }
+
+    .progress-text {
+        font-size: 0.85rem;
+    }
+
+    .claim-button {
+        font-size: 0.9rem;
+    }
+}

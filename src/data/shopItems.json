@@ -1,0 +1,314 @@
+[
+    {
+        "id": "hat_1",
+        "name": "Nomadic Hat",
+        "price": 50,
+        "category": "hat",
+        "icon": "🎩",
+        "description": "Worn by those who traverse the endless steppes.",
+        "style": {
+            "type": "tophat",
+            "color": "linear-gradient(160deg, #5d4037 0%, #3e2723 100%)"
+        }
+    },
+    {
+        "id": "hat_2",
+        "name": "Scythian Crown",
+        "price": 250,
+        "category": "hat",
+        "icon": "👑",
+        "description": "A symbol of royalty from the Golden Man.",
+        "style": {
+            "type": "crown",
+            "color": "linear-gradient(135deg, #ffd700 0%, #fdb931 50%, #d4af37 100%)"
+        }
+    },
+    {
+        "id": "hat_3",
+        "name": "Fur Cap",
+        "price": 80,
+        "category": "hat",
+        "icon": "🧢",
+        "description": "Essential warmth for harsh winters.",
+        "style": {
+            "type": "furcap",
+            "color": "radial-gradient(circle, #8d6e63 20%, #5d4037 100%)"
+        }
+    },
+    {
+        "id": "hat_4",
+        "name": "Feathered Headdress",
+        "price": 180,
+        "category": "hat",
+        "icon": "🪶",
+        "description": "Ceremonial wear honoring the spirits of the sky.",
+        "style": {
+            "type": "headdress",
+            "color": "linear-gradient(to right, #ff7043, #d84315)"
+        }
+    },
+    {
+        "id": "coat_1",
+        "name": "Warrior Coat",
+        "price": 100,
+        "category": "clothing",
+        "icon": "🧥",
+        "description": "Durable leather armor for battle.",
+        "style": {
+            "bodyColor": "linear-gradient(to bottom, #424242, #212121)",
+            "armColor": "#424242",
+            "pattern": "warrior"
+        }
+    },
+    {
+        "id": "coat_2",
+        "name": "Silk Robe",
+        "price": 120,
+        "category": "clothing",
+        "icon": "👘",
+        "description": "Imported from the Great Silk Road.",
+        "style": {
+            "bodyColor": "linear-gradient(135deg, #e91e63 0%, #c2185b 100%)",
+            "armColor": "#e91e63",
+            "pattern": "silk"
+        }
+    },
+    {
+        "id": "coat_3",
+        "name": "Leather Tunic",
+        "price": 90,
+        "category": "clothing",
+        "icon": "🦺",
+        "description": "Practical attire for daily life.",
+        "style": {
+            "bodyColor": "linear-gradient(to bottom, #8d6e63, #5d4037)",
+            "armColor": "#8d6e63",
+            "pattern": "leather"
+        }
+    },
+    {
+        "id": "coat_4",
+        "name": "Royal Cloak",
+        "price": 200,
+        "category": "clothing",
+        "icon": "🧥",
+        "description": "Velvet draped in nobility.",
+        "style": {
+            "bodyColor": "linear-gradient(to bottom, #6a1b9a, #4a148c)",
+            "armColor": "#6a1b9a",
+            "pattern": "royal"
+        }
+    },
+    {
+        "id": "coat_5",
+        "name": "Nomad Vest",
+        "price": 70,
+        "category": "clothing",
+        "icon": "👔",
+        "description": "Lightweight and versatile.",
+        "style": {
+            "bodyColor": "linear-gradient(to bottom, #ef6c00, #e65100)",
+            "armColor": "#ffe0b2",
+            "pattern": "nomad"
+        }
+    },
+    {
+        "id": "boots_1",
+        "name": "Leather Boots",
+        "price": 75,
+        "category": "footwear",
+        "icon": "👢",
+        "description": "Sturdy boots for long journeys.",
+        "style": {
+            "legColor": "#5d4037",
+            "footColor": "#3e2723"
+        }
+    },
+    {
+        "id": "boots_2",
+        "name": "Iron Greaves",
+        "price": 150,
+        "category": "footwear",
+        "icon": "🥾",
+        "description": "Armored protection for the legs.",
+        "style": {
+            "legColor": "linear-gradient(to bottom, #78909c, #546e7a)",
+            "footColor": "#37474f"
+        }
+    },
+    {
+        "id": "boots_3",
+        "name": "Silk Slippers",
+        "price": 60,
+        "category": "footwear",
+        "icon": "👞",
+        "description": "Comfortable and stylish.",
+        "style": {
+            "legColor": "#424242",
+            "footColor": "#c2185b"
+        }
+    },
+    {
+        "id": "boots_4",
+        "name": "Fur Boots",
+        "price": 100,
+        "category": "footwear",
+        "icon": "🧦",
+        "description": "Lined with warm wool.",
+        "style": {
+            "legColor": "#6d4c41",
+            "footColor": "#4e342e"
+        }
+    },
+    {
+        "id": "sword_1",
+        "name": "Ancient Sword",
+        "price": 150,
+        "category": "accessory",
+        "icon": "⚔️",
+        "description": "A blade of tempered steel.",
+        "style": {
+            "accessory": "sword",
+            "glowColor": "linear-gradient(135deg, #e0e0e0 0%, #bdbdbd 100%)"
+        }
+    },
+    {
+        "id": "shield_1",
+        "name": "Golden Shield",
+        "price": 200,
+        "category": "accessory",
+        "icon": "🛡️",
+        "description": "Shines with the glory of ancestors.",
+        "style": {
+            "accessory": "shield",
+            "glowColor": "radial-gradient(circle at 30% 30%, #ffd700, #f57f17)"
+        }
+    },
+    {
+        "id": "jewelry_1",
+        "name": "Gold Bracelet",
+        "price": 80,
+        "category": "accessory",
+        "icon": "📿",
+        "description": "Intricate Scythian animal style.",
+        "style": {
+            "accessory": "bracelet",
+            "glowColor": "linear-gradient(45deg, #ffca28, #ff6f00)"
+        }
+    },
+    {
+        "id": "accessory_2",
+        "name": "Bow & Arrow",
+        "price": 130,
+        "category": "accessory",
+        "icon": "🏹",
+        "description": "Composite bow of the steppes.",
+        "style": {
+            "accessory": "bow",
+            "glowColor": "linear-gradient(to right, #8d6e63, #5d4037)"
+        }
+    },
+    {
+        "id": "accessory_3",
+        "name": "Magic Staff",
+        "price": 180,
+        "category": "accessory",
+        "icon": "🪄",
+        "description": "Channels the energy of the earth.",
+        "style": {
+            "accessory": "staff",
+            "glowColor": "radial-gradient(circle, #b39ddb, #512da8)"
+        }
+    },
+    {
+        "id": "art_dombra",
+        "name": "Golden Dombra",
+        "price": 300,
+        "category": "artifact",
+        "icon": "🎸",
+        "xpBoost": 0.15,
+        "description": "Songs of the steppes echo in its strings (+15% EXP).",
+        "style": {
+            "aura": "golden",
+            "glowColor": "#ffd700"
+        }
+    },
+    {
+        "id": "art_tumar",
+        "name": "Silver Tumar",
+        "price": 150,
+        "category": "artifact",
+        "icon": "🧿",
+        "xpBoost": 0.05,
+        "description": "A triangular amulet of protection (+5% EXP).",
+        "style": {
+            "aura": "blue",
+            "glowColor": "#4a90e2"
+        }
+    },
+    {
+        "id": "art_kazan",
+        "name": "Bronze Kazan",
+        "price": 250,
+        "category": "artifact",
+        "icon": "🍲",
+        "xpBoost": 0.10,
+        "description": "Symbolizes unity and hospitality (+10% EXP).",
+        "style": {
+            "aura": "bronze",
+            "glowColor": "#cd7f32"
+        }
+    },
+    {
+        "id": "art_shanyrak",
+        "name": "Jade Shanyrak",
+        "price": 400,
+        "category": "artifact",
+        "icon": "⭕",
+        "xpBoost": 0.20,
+        "description": "The sacred opening to the sky (+20% EXP).",
+        "style": {
+            "aura": "jade",
+            "glowColor": "#00a86b"
+        }
+    },
+    {
+        "id": "art_ring",
+        "name": "Turquoise Ring",
+        "price": 120,
+        "category": "artifact",
+        "icon": "💍",
+        "xpBoost": 0.05,
+        "description": "Reflects the endless blue sky (+5% EXP).",
+        "style": {
+            "aura": "turquoise",
+            "glowColor": "#40e0d0"
+        }
+    },
+    {
+        "id": "art_totem",
+        "name": "Wolf Totem",
+        "price": 350,
+        "category": "artifact",
+        "icon": "🐺",
+        "xpBoost": 0.15,
+        "description": "Spirit of the fierce protector (+15% EXP).",
+        "style": {
+            "aura": "wild",
+            "glowColor": "#8b4513"
+        }
+    },
+    {
+        "id": "art_feather",
+        "name": "Eagle Feather",
+        "price": 200,
+        "category": "artifact",
+        "icon": "🪶",
+        "xpBoost": 0.08,
+        "description": "Carries the freedom of flight (+8% EXP).",
+        "style": {
+            "aura": "sky",
+            "glowColor": "#87ceeb"
+        }
+    }
+]

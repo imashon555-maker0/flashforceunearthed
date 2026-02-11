@@ -1,30 +1,16 @@
-This is a placeholder README file.
+# React + Vite
 
-## ArcheoQuest
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Welcome to ArcheoQuest! This is a web application for learning archeology in a fun, Duolingo-like way.
+Currently, two official plugins are available:
 
-### How to Run Locally
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-1.  **Install Dependencies**:
-    Open a terminal in the project root and run:
-    ```bash
-    npm install
-    ```
+## React Compiler
 
-2.  **Run the Development Server**:
-    After the installation is complete, run:
-    ```bash
-    npm run dev
-    ```
-    This will start the application on `http://localhost:3000`.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### How to Deploy to Netlify
+## Expanding the ESLint configuration
 
-This project is pre-configured for deployment on Netlify.
-
-1.  Create a new repository on GitHub, GitLab, or Bitbucket and push the code.
-2.  Go to your Netlify dashboard and create a "New site from Git".
-3.  Connect your Git provider and select the repository.
-4.  Netlify will automatically detect the `netlify.toml` file and the Next.js project. The build settings should be pre-filled.
-5.  Click "Deploy site". Netlify will build and deploy your application.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

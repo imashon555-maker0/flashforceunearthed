@@ -1,0 +1,294 @@
+.profile-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-bottom: 6rem;
+    /* Extra space for bottom nav on mobile */
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.avatar-section {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.avatar-display {
+    width: 240px;
+    height: 340px;
+    border-radius: var(--radius-lg);
+    background: linear-gradient(135deg, #a67c5c 0%, #8b6340 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-cream);
+    border: 3px solid var(--color-border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: visible;
+    padding: var(--spacing-md);
+}
+
+.profile-info h2 {
+    margin: 0 0 var(--spacing-xs) 0;
+    color: var(--color-primary);
+}
+
+.profile-info p {
+    margin: 0;
+    color: var(--color-text-secondary);
+}
+
+.logout-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: transparent;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text-primary);
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.logout-btn:hover {
+    background: var(--color-terracotta);
+    color: var(--color-cream);
+    border-color: var(--color-terracotta);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.stat-box {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    transition: all 0.2s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.stat-icon.exp {
+    background: rgba(255, 215, 0, 0.2);
+}
+
+.stat-icon.balance {
+    background: rgba(76, 175, 80, 0.2);
+}
+
+.stat-icon.streak {
+    background: rgba(255, 87, 34, 0.2);
+}
+
+.stat-icon.inventory {
+    background: rgba(33, 150, 243, 0.2);
+    color: var(--color-slate);
+}
+
+.stat-details {
+    flex: 1;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+}
+
+.inventory-section {
+    /* bg, padding, radius, border removed (handled by .card) */
+}
+
+.inventory-section h3 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-lg);
+}
+
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.inventory-item {
+    background: var(--color-background);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--color-border);
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.inventory-item:hover {
+    transform: scale(1.05);
+    border-color: var(--color-terracotta);
+}
+
+.inventory-item.equipped {
+    border-color: var(--color-primary);
+    background: rgba(var(--color-primary-rgb), 0.1);
+    box-shadow: 0 0 0 2px var(--color-primary);
+}
+
+.equip-status {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.item-preview {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.inventory-item p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+.empty-message {
+    text-align: center;
+    color: var(--color-text-secondary);
+    padding: var(--spacing-xl);
+    font-style: italic;
+}
+
+/* Saved Resources Section */
+.saved-section {
+    margin-top: var(--spacing-xl);
+}
+
+.saved-section h3 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-lg);
+    color: var(--color-primary);
+}
+
+.saved-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.saved-card {
+    background: var(--color-background);
+    /* Override card bg? No, keep it specific if needed, but standard card uses card bg. Saved-card uses background. */
+    /* Let's remove background: var(--color-background) if we want it to match standard card, OR keep it if it's nested */
+    /* Saved cards are IN the saved section (which is a card). So card inside card. */
+    /* Inner cards usually have different background. The original had var(--color-background). */
+    background: var(--color-background);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--color-border);
+    transition: all 0.3s ease;
+}
+
+.saved-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary);
+}
+
+.saved-card h4 {
+    margin: 0 0 var(--spacing-sm) 0;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+}
+
+.saved-date {
+    display: block;
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.saved-actions {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+}
+
+.view-btn,
+.battle-launcher-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.view-btn {
+    background: var(--color-blue);
+    color: white;
+}
+
+.view-btn:hover {
+    background: var(--color-slate);
+    transform: scale(1.02);
+}
+
+.battle-launcher-btn {
+    background: var(--color-terracotta);
+    color: white;
+}
+
+.battle-launcher-btn:hover {
+    background: #b8523a;
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        gap: var(--spacing-lg);
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .saved-grid {
+        grid-template-columns: 1fr;
+    }
+}
